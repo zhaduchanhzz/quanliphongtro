@@ -34,6 +34,7 @@ namespace TinhTienTro
                         ID INTEGER PRIMARY KEY AUTOINCREMENT,
                         NhaTroID INTEGER NOT NULL,
                         TenPhong NVARCHAR(50) NOT NULL,
+GiaPhong REAL NOT NULL,
                         FOREIGN KEY (NhaTroID) REFERENCES NhaTro(ID) ON DELETE CASCADE
                     );";
                 ExecuteNonQuery(createPhongTroTable, connection);
@@ -68,12 +69,19 @@ namespace TinhTienTro
                 var createChiPhiTable = @"
                     CREATE TABLE IF NOT EXISTS ChiPhi (
                         ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                        PhongTroID INTEGER NOT NULL,
                         TenPhi NVARCHAR(100) NOT NULL,
-                        GiaTien REAL NOT NULL,
-                        FOREIGN KEY (PhongTroID) REFERENCES PhongTro(ID) ON DELETE CASCADE
+                        GiaTien REAL NOT NULL
                     );";
                 ExecuteNonQuery(createChiPhiTable, connection);
+                var createCongToPhongTro = @"
+                   CREATE TABLE IF NOT EXISTS CongToPhongTro (
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    CongToDienID INTEGER NOT NULL,
+    PhongTroID INTEGER NOT NULL,
+    FOREIGN KEY (CongToDienID) REFERENCES CongToDien(ID) ON DELETE CASCADE,
+    FOREIGN KEY (PhongTroID) REFERENCES PhongTro(ID) ON DELETE CASCADE
+);";
+                ExecuteNonQuery(createCongToPhongTro, connection);
             }
         }
 

@@ -3,82 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addcongtodienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addcongtodienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addcongtodienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addcongtodienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addthanhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addthanhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addphongtroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addphongtroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addnhatroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addnhatroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TinhTienTro||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addthanhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addthanhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\nhatrodetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\thanhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\thanhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\phongtroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\phongtroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\nhatroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\nhatroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addphongtroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addphongtroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addphongtroform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addphongtroform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\addnhatroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|solutionrelative:tinhtientro\\addnhatroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D10E895-8E4A-4B56-94DC-FDCA02FDA21B}|TinhTienTro\\TinhTienTro.csproj|c:\\users\\admin\\source\\repos\\tinhtientro\\tinhtientro\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,24 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:9:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
@@ -116,225 +46,62 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:7:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThanhVien.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVien.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\ThanhVien.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVien.cs",
-              "RelativeToolTip": "TinhTienTro\\ThanhVien.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA4wB8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T10:40:40.162Z",
-              "EditorCaption": ""
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NhaTroDetailsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\NhaTroDetailsForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs [Design]",
-              "RelativeToolTip": "TinhTienTro\\NhaTroDetailsForm.cs [Design]",
+              "Title": "AddCongToDienForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddCongToDienForm.cs",
+              "RelativeDocumentMoniker": "TinhTienTro\\AddCongToDienForm.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddCongToDienForm.cs",
+              "RelativeToolTip": "TinhTienTro\\AddCongToDienForm.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwEAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:07:34.479Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TinhTienTro",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\TinhTienTro.csproj",
-              "RelativeDocumentMoniker": "TinhTienTro\\TinhTienTro.csproj",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\TinhTienTro.csproj",
-              "RelativeToolTip": "TinhTienTro\\TinhTienTro.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-01T10:39:43.284Z",
+              "WhenOpened": "2024-12-01T18:09:24.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddNhaTroForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddNhaTroForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddNhaTroForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddNhaTroForm.cs [Design]",
-              "RelativeToolTip": "TinhTienTro\\AddNhaTroForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "AddCongToDienForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddCongToDienForm.cs",
+              "RelativeDocumentMoniker": "TinhTienTro\\AddCongToDienForm.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddCongToDienForm.cs [Design]",
+              "RelativeToolTip": "TinhTienTro\\AddCongToDienForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:49:20.297Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddPhongTroForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddPhongTroForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.cs [Design]",
-              "RelativeToolTip": "TinhTienTro\\AddPhongTroForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:28:23.324Z",
+              "WhenOpened": "2024-12-01T18:09:13.321Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddThanhVienForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddThanhVienForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddThanhVienForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddThanhVienForm.cs [Design]",
-              "RelativeToolTip": "TinhTienTro\\AddThanhVienForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:27:29.356Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "TinhTienTro\\DatabaseHelper.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\DatabaseHelper.cs",
               "RelativeToolTip": "TinhTienTro\\DatabaseHelper.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowD0AAAAdAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAQwGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:47:41.663Z",
+              "WhenOpened": "2024-12-01T17:49:23.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddThanhVienForm.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddThanhVienForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddThanhVienForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddThanhVienForm.cs",
-              "RelativeToolTip": "TinhTienTro\\AddThanhVienForm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAmAAAA",
+              "DocumentIndex": 4,
+              "Title": "ThanhVien.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVien.cs",
+              "RelativeDocumentMoniker": "TinhTienTro\\ThanhVien.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVien.cs",
+              "RelativeToolTip": "TinhTienTro\\ThanhVien.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:27:34.318Z",
+              "WhenOpened": "2024-12-01T17:24:44.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\Form1.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\Form1.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\Form1.cs [Design]",
-              "RelativeToolTip": "TinhTienTro\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:12:54.959Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NhaTroDetailsForm.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\NhaTroDetailsForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs",
-              "RelativeToolTip": "TinhTienTro\\NhaTroDetailsForm.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAUwHgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:09:36.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ThanhVienService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVienService.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\ThanhVienService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\ThanhVienService.cs",
-              "RelativeToolTip": "TinhTienTro\\ThanhVienService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAArwC8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:28:02.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PhongTroService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\PhongTroService.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\PhongTroService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\PhongTroService.cs",
-              "RelativeToolTip": "TinhTienTro\\PhongTroService.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAArwE0AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:44:26.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NhaTroservice.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroservice.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\NhaTroservice.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroservice.cs",
-              "RelativeToolTip": "TinhTienTro\\NhaTroservice.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAArwL0AAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:43:41.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddPhongTroForm.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddPhongTroForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.cs",
-              "RelativeToolTip": "TinhTienTro\\AddPhongTroForm.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:28:25.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\packages.config",
-              "RelativeDocumentMoniker": "TinhTienTro\\packages.config",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\packages.config",
-              "RelativeToolTip": "TinhTienTro\\packages.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-01T08:58:43.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddPhongTroForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.Designer.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddPhongTroForm.Designer.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddPhongTroForm.Designer.cs",
-              "RelativeToolTip": "TinhTienTro\\AddPhongTroForm.Designer.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAiwDwAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T10:03:04.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\Program.cs",
               "RelativeDocumentMoniker": "TinhTienTro\\Program.cs",
@@ -342,34 +109,20 @@
               "RelativeToolTip": "TinhTienTro\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:35:36.988Z",
+              "WhenOpened": "2024-12-01T17:24:43.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\Form1.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\Form1.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\Form1.cs",
-              "RelativeToolTip": "TinhTienTro\\Form1.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAqwEoAAAANAAAA",
+              "DocumentIndex": 2,
+              "Title": "NhaTroDetailsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs",
+              "RelativeDocumentMoniker": "TinhTienTro\\NhaTroDetailsForm.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\NhaTroDetailsForm.cs [Design]",
+              "RelativeToolTip": "TinhTienTro\\NhaTroDetailsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:41:16.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddNhaTroForm.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddNhaTroForm.cs",
-              "RelativeDocumentMoniker": "TinhTienTro\\AddNhaTroForm.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\TinhTienTro\\TinhTienTro\\AddNhaTroForm.cs",
-              "RelativeToolTip": "TinhTienTro\\AddNhaTroForm.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADwvz8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T08:51:35.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T17:04:09.408Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

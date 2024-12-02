@@ -22,6 +22,8 @@ namespace TinhTienTro
         public string TenPhong { get; set; }
         public List<ThanhVien> ThanhVien { get; set; }
 
+        public double GiaPhong { get; set; }
+
         public int NhaTroID { get; set; }
     }
 
@@ -33,7 +35,6 @@ namespace TinhTienTro
         public bool isTong { get; set; }
         public bool isNau { get; set; }
 
-        public List<PhongTro> PhongTro { get; set; }
     }
     public class NhaTro
     {
@@ -48,6 +49,16 @@ namespace TinhTienTro
         public int ID { get; set; }
         public string TenPhi { get; set; }
         public double GiaTien { get; set; }
+    }
+
+    public class CongToDienWithPhongTro
+    {
+        public int ID { get; set; }
+        public double ChiSoCu { get; set; }
+        public double ChiSoMoi { get; set; }
+        public bool IsTong { get; set; }
+        public bool IsNau { get; set; }
+        public string TenPhong { get; set; }  // Tên phòng trọ
     }
 
 }

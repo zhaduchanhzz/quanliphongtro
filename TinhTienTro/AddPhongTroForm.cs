@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SQLite;
 using System.Windows.Forms;
 
@@ -7,101 +8,166 @@ namespace TinhTienTro
 {
     public partial class AddPhongTroForm : Form
     {
-        public bool IsEditMode { get; set; } = false; // Kiểm tra chế độ chỉnh sửa hay thêm mới
-        public PhongTro PhongTro { get; set; } // Đối tượng phòng trọ cần chỉnh sửa
-        public int NhaTroID { get; set; } // ID nhà trọ (không thay đổi khi chỉnh sửa phòng trọ)
+        public int NhaTroID { get; set; } // ID nhà trọ để lọc danh sách phòng trọ
 
         public AddPhongTroForm(int nhaTroID)
         {
             InitializeComponent();
-            NhaTroID = nhaTroID;  // Gán ID nhà trọ cho form
+            NhaTroID = nhaTroID; // Gán ID nhà trọ
         }
 
         private void AddPhongTroForm_Load(object sender, EventArgs e)
         {
-            // Nếu là chế độ chỉnh sửa, điền tên phòng trọ vào textbox
-            if (IsEditMode && PhongTro != null)
+            LoadPhongTroList(); // Hiển thị danh sách phòng trọ
+        }
+
+        // Phương thức Load danh sách phòng trọ vào DataGridView
+        private void LoadPhongTroList()
+        {
+            using (var connection = DatabaseHelper.GetConnection())
             {
-                txtTenPhong.Text = PhongTro.TenPhong;
-            }
-            else
-            {
-                // Chế độ thêm mới: Tên phòng trọ chưa có, textbox trống
-                txtTenPhong.Clear();
+                connection.Open();
+                string query = "SELECT ID, TenPhong, GiaPhong FROM PhongTro WHERE NhaTroID = @NhaTroID";
+                using (var command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@NhaTroID", NhaTroID);
+                    var reader = command.ExecuteReader();
+
+                    var dataTable = new DataTable();
+                    dataTable.Load(reader);
+                    dataGridViewPhongTro.DataSource = dataTable;
+                }
             }
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        // Nút thêm phòng trọ
+        private void btnAdd_Click(object sender, EventArgs e)
         {
-            // Kiểm tra nếu có thông tin hợp lệ
-            if (string.IsNullOrEmpty(txtTenPhong.Text))
+            string tenPhong = txtTenPhong.Text.Trim();
+            if (string.IsNullOrEmpty(tenPhong))
             {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng nhập tên phòng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Tạo đối tượng PhongTro từ thông tin trên form
-            PhongTro phongTro = new PhongTro
+            double giaPhong = 0;
+            if (!double.TryParse(txtGiaPhong.Text, out giaPhong))
             {
-                TenPhong = txtTenPhong.Text,
-                NhaTroID = NhaTroID // Chỉ giữ NhaTroID khi chỉnh sửa, không thay đổi
-            };
-
-            // Nếu là chỉnh sửa, cập nhật thông tin
-            if (IsEditMode)
-            {
-                phongTro.ID = PhongTro.ID; // Gán ID để biết đây là phòng trọ cần chỉnh sửa
-                UpdatePhongTro(phongTro);
-            }
-            else
-            {
-                // Nếu là thêm mới, gọi phương thức thêm phòng trọ
-                AddPhongTro(phongTro);
+                MessageBox.Show("Giá phòng không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
 
-            // Đóng form sau khi lưu
-            this.DialogResult = DialogResult.OK;
-            this.Close();
-        }
-
-
-        private void AddPhongTro(PhongTro phongTro)
-        {
             using (var connection = DatabaseHelper.GetConnection())
             {
                 connection.Open();
-                string query = "INSERT INTO PhongTro (TenPhong, NhaTroID) VALUES (@TenPhong, @NhaTroID)";
-
+                string query = "INSERT INTO PhongTro (TenPhong, NhaTroID, GiaPhong) VALUES (@TenPhong, @NhaTroID, @GiaPhong)";
                 using (var command = new SQLiteCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@TenPhong", phongTro.TenPhong);
-                    command.Parameters.AddWithValue("@NhaTroID", phongTro.NhaTroID);
-
-                    command.ExecuteNonQuery(); // Thực thi câu lệnh INSERT
+                    command.Parameters.AddWithValue("@TenPhong", tenPhong);
+                    command.Parameters.AddWithValue("@NhaTroID", NhaTroID);
+                    command.Parameters.AddWithValue("@GiaPhong", giaPhong);
+                    command.ExecuteNonQuery();
                 }
             }
+
+            ClearForm();
+            LoadPhongTroList();
         }
 
-        private void UpdatePhongTro(PhongTro phongTro)
+        // Nút sửa phòng trọ
+        private void btnEdit_Click(object sender, EventArgs e)
         {
+            if (dataGridViewPhongTro.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn một phòng trọ để chỉnh sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string tenPhong = txtTenPhong.Text.Trim();
+            if (string.IsNullOrEmpty(tenPhong))
+            {
+                MessageBox.Show("Vui lòng nhập tên phòng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            double giaPhong = 0;
+            if (!double.TryParse(txtGiaPhong.Text, out giaPhong))
+            {
+                MessageBox.Show("Giá phòng không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            int phongTroID = Convert.ToInt32(dataGridViewPhongTro.SelectedRows[0].Cells["ID"].Value);
+
             using (var connection = DatabaseHelper.GetConnection())
             {
                 connection.Open();
-                string query = "UPDATE PhongTro SET TenPhong = @TenPhong WHERE ID = @ID";
-
+                string query = "UPDATE PhongTro SET TenPhong = @TenPhong, GiaPhong = @GiaPhong WHERE ID = @ID";
                 using (var command = new SQLiteCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@TenPhong", phongTro.TenPhong);
-                    command.Parameters.AddWithValue("@ID", phongTro.ID);
-
-                    command.ExecuteNonQuery(); // Thực thi câu lệnh UPDATE
+                    command.Parameters.AddWithValue("@TenPhong", tenPhong);
+                    command.Parameters.AddWithValue("@GiaPhong", giaPhong);
+                    command.Parameters.AddWithValue("@ID", phongTroID);
+                    command.ExecuteNonQuery();
                 }
+            }
+
+            ClearForm();
+            LoadPhongTroList();
+        }
+
+        // Nút xóa phòng trọ
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewPhongTro.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn một phòng trọ để xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            int phongTroID = Convert.ToInt32(dataGridViewPhongTro.SelectedRows[0].Cells["ID"].Value);
+
+            var confirmResult = MessageBox.Show("Bạn có chắc chắn muốn xóa phòng trọ này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmResult == DialogResult.Yes)
+            {
+                using (var connection = DatabaseHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "DELETE FROM PhongTro WHERE ID = @ID";
+                    using (var command = new SQLiteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@ID", phongTroID);
+                        command.ExecuteNonQuery();
+                    }
+                }
+
+                ClearForm();
+                LoadPhongTroList();
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        // Khi chọn dòng trên DataGridView, điền dữ liệu vào TextBox
+        private void dataGridViewPhongTro_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dataGridViewPhongTro.Rows[e.RowIndex];
+                txtTenPhong.Text = row.Cells["TenPhong"].Value.ToString();
+                txtGiaPhong.Text = row.Cells["GiaPhong"].Value.ToString();
+            }
+        }
+
+        // Nút đóng form
+        private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        // Xóa nội dung form
+        private void ClearForm()
+        {
+            txtTenPhong.Clear();
+            txtGiaPhong.Clear();
         }
     }
 }

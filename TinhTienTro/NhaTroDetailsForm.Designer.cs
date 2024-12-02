@@ -33,6 +33,8 @@
             this.AddThanhVien = new System.Windows.Forms.Button();
             this.addPhongTro = new System.Windows.Forms.Button();
             this.dataGridViewCongto = new System.Windows.Forms.DataGridView();
+            this.btnAddCongTo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewThanhVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCongto)).BeginInit();
             this.SuspendLayout();
@@ -42,7 +44,7 @@
             this.dataGridViewThanhVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewThanhVien.Location = new System.Drawing.Point(12, 123);
             this.dataGridViewThanhVien.Name = "dataGridViewThanhVien";
-            this.dataGridViewThanhVien.Size = new System.Drawing.Size(554, 436);
+            this.dataGridViewThanhVien.Size = new System.Drawing.Size(671, 485);
             this.dataGridViewThanhVien.TabIndex = 0;
             // 
             // lblDiaChi
@@ -77,16 +79,38 @@
             // dataGridViewCongto
             // 
             this.dataGridViewCongto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCongto.Location = new System.Drawing.Point(608, 123);
+            this.dataGridViewCongto.Location = new System.Drawing.Point(700, 123);
             this.dataGridViewCongto.Name = "dataGridViewCongto";
-            this.dataGridViewCongto.Size = new System.Drawing.Size(265, 436);
+            this.dataGridViewCongto.Size = new System.Drawing.Size(814, 485);
             this.dataGridViewCongto.TabIndex = 4;
+            // 
+            // btnAddCongTo
+            // 
+            this.btnAddCongTo.Location = new System.Drawing.Point(338, 38);
+            this.btnAddCongTo.Name = "btnAddCongTo";
+            this.btnAddCongTo.Size = new System.Drawing.Size(142, 23);
+            this.btnAddCongTo.TabIndex = 5;
+            this.btnAddCongTo.Text = "Thêm Công Tơ Điện";
+            this.btnAddCongTo.UseVisualStyleBackColor = true;
+            this.btnAddCongTo.Click += new System.EventHandler(this.btnAddCongTo_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(512, 38);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Chi Phí";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // NhaTroDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 565);
+            this.ClientSize = new System.Drawing.Size(1521, 633);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAddCongTo);
             this.Controls.Add(this.dataGridViewCongto);
             this.Controls.Add(this.addPhongTro);
             this.Controls.Add(this.AddThanhVien);
@@ -109,5 +133,7 @@
         private System.Windows.Forms.Button AddThanhVien;
         private System.Windows.Forms.Button addPhongTro;
         private System.Windows.Forms.DataGridView dataGridViewCongto;
+        private System.Windows.Forms.Button btnAddCongTo;
+        private System.Windows.Forms.Button button1;
     }
 }
